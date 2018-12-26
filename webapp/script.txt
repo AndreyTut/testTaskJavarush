@@ -1,0 +1,80 @@
+drop database if exists test;
+create database test;
+use test;
+create table part(
+
+id int(10) not null auto_increment primary key,
+compName char(20) not null,
+manuf char(30) null,
+ness boolean,
+quant int(10) not null
+);
+
+
+drop database if exists test;
+create database test;
+use test;
+create table part(
+
+id int(10) not null auto_increment primary key,
+compName char(20) not null,
+manuf char(30) null,
+ness boolean,
+quant int(10) not null
+);
+
+
+ 
+ insert into part(id, compName, manuf, ness, quant)
+ values(1, "Материнская плата", "INTEL", true, 4);
+ insert into part(compName, manuf, ness, quant)
+ values("Материнская плата", "ASUS", true, 2);
+ insert into part(compName, manuf, ness, quant)
+ values("Материнская плата", "MSI", true, 4);
+ insert into part(compName, manuf, ness, quant)
+ values("Звуковая карта", "ASUS", false, 7);
+ insert into part(compName, manuf, ness, quant)
+ values("Звуковая карта", "C-media", false, 1);
+ insert into part(compName, manuf, ness, quant)
+ values("Процессор", "INTEL", true, 8);
+ insert into part(compName, manuf, ness, quant)
+ values("Процессор", "AMD", true, 5);
+ insert into part(compName, manuf, ness, quant)
+ values("Процессор", "VIA", true, 1);
+ insert into part(compName, manuf, ness, quant)
+ values("Процессор", "Sun Microsystems", true, 2);
+ insert into part(compName, manuf, ness, quant)
+ values("Подсветка корпуса", "DEEP COOL", false, 2);
+ insert into part(compName, manuf, ness, quant)
+ values("Подсветка корпуса", "RGB CUBE", false, 1);
+ insert into part(compName, manuf, ness, quant)
+ values("HDD диск", "WD", false, 1);
+ insert into part(compName, manuf, ness, quant)
+ values("HDD диск", "Samsung", false, 10);
+ insert into part(compName, manuf, ness, quant)
+ values("HDD диск", "Hitachi", false, 2);
+ insert into part(compName, manuf, ness, quant)
+ values("HDD диск", "Fujitsu", false, 1);
+ insert into part(compName, manuf, ness, quant)
+ values("Корпус", "Zalman", true, 1);
+ insert into part(compName, manuf, ness, quant)
+ values("Корпус", "Gamemax", true, 5);
+ insert into part(compName, manuf, ness, quant)
+ values("Память", "Kingston", true, 5);
+ insert into part(compName, manuf, ness, quant)
+ values("Память", "GoodRam", true, 4);
+ insert into part(compName, manuf, ness, quant)
+ values("Память", "AMD", true, 2);
+ insert into part(compName, manuf, ness, quant)
+ values("SSD диск", "Intel", true, 3);
+ insert into part(compName, manuf, ness, quant)
+ values("SSD диск", "Micron", true, 2);
+ insert into part(compName, manuf, ness, quant)
+ values("SSD диск", "Toshiba", true, 3);
+ insert into part(compName, manuf, ness, quant)
+ values("Видеокарта", "Nvidea", false, 3);
+ insert into part(compName, manuf, ness, quant)
+ values("Видеокарта", "Gigabyte", false, 2);
+ insert into part(compName, manuf, ness, quant)
+ values("Видеокарта", "Zotac", false, 3);
+
