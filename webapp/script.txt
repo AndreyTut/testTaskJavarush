@@ -1,4 +1,4 @@
-drop database if exists test;
+п»їdrop database if exists test;
 create database test;
 use test;
 create table part(
@@ -26,55 +26,55 @@ quant int(10) not null
 
  
  insert into part(id, compName, manuf, ness, quant)
- values(1, "Материнская плата", "INTEL", true, 4);
+ values(1, "РњР°С‚РµСЂРёРЅСЃРєР°СЏ РїР»Р°С‚Р°", "INTEL", true, 4);
  insert into part(compName, manuf, ness, quant)
- values("Материнская плата", "ASUS", true, 2);
+ values("РњР°С‚РµСЂРёРЅСЃРєР°СЏ РїР»Р°С‚Р°", "ASUS", true, 2);
  insert into part(compName, manuf, ness, quant)
- values("Материнская плата", "MSI", true, 4);
+ values("РњР°С‚РµСЂРёРЅСЃРєР°СЏ РїР»Р°С‚Р°", "MSI", true, 4);
  insert into part(compName, manuf, ness, quant)
- values("Звуковая карта", "ASUS", false, 7);
+ values("Р—РІСѓРєРѕРІР°СЏ РєР°СЂС‚Р°", "ASUS", false, 7);
  insert into part(compName, manuf, ness, quant)
- values("Звуковая карта", "C-media", false, 1);
+ values("Р—РІСѓРєРѕРІР°СЏ РєР°СЂС‚Р°", "C-media", false, 1);
  insert into part(compName, manuf, ness, quant)
- values("Процессор", "INTEL", true, 8);
+ values("РџСЂРѕС†РµСЃСЃРѕСЂ", "INTEL", true, 8);
  insert into part(compName, manuf, ness, quant)
- values("Процессор", "AMD", true, 5);
+ values("РџСЂРѕС†РµСЃСЃРѕСЂ", "AMD", true, 5);
  insert into part(compName, manuf, ness, quant)
- values("Процессор", "VIA", true, 1);
+ values("РџСЂРѕС†РµСЃСЃРѕСЂ", "VIA", true, 1);
  insert into part(compName, manuf, ness, quant)
- values("Процессор", "Sun Microsystems", true, 2);
+ values("РџСЂРѕС†РµСЃСЃРѕСЂ", "Sun Microsystems", true, 2);
  insert into part(compName, manuf, ness, quant)
- values("Подсветка корпуса", "DEEP COOL", false, 2);
+ values("РџРѕРґСЃРІРµС‚РєР° РєРѕСЂРїСѓСЃР°", "DEEP COOL", false, 2);
  insert into part(compName, manuf, ness, quant)
- values("Подсветка корпуса", "RGB CUBE", false, 1);
+ values("РџРѕРґСЃРІРµС‚РєР° РєРѕСЂРїСѓСЃР°", "RGB CUBE", false, 1);
  insert into part(compName, manuf, ness, quant)
- values("HDD диск", "WD", false, 1);
+ values("HDD РґРёСЃРє", "WD", false, 1);
  insert into part(compName, manuf, ness, quant)
- values("HDD диск", "Samsung", false, 10);
+ values("HDD РґРёСЃРє", "Samsung", false, 10);
  insert into part(compName, manuf, ness, quant)
- values("HDD диск", "Hitachi", false, 2);
+ values("HDD РґРёСЃРє", "Hitachi", false, 2);
  insert into part(compName, manuf, ness, quant)
- values("HDD диск", "Fujitsu", false, 1);
+ values("HDD РґРёСЃРє", "Fujitsu", false, 1);
  insert into part(compName, manuf, ness, quant)
- values("Корпус", "Zalman", true, 1);
+ values("РљРѕСЂРїСѓСЃ", "Zalman", true, 1);
  insert into part(compName, manuf, ness, quant)
- values("Корпус", "Gamemax", true, 5);
+ values("РљРѕСЂРїСѓСЃ", "Gamemax", true, 5);
  insert into part(compName, manuf, ness, quant)
- values("Память", "Kingston", true, 5);
+ values("РџР°РјСЏС‚СЊ", "Kingston", true, 5);
  insert into part(compName, manuf, ness, quant)
- values("Память", "GoodRam", true, 4);
+ values("РџР°РјСЏС‚СЊ", "GoodRam", true, 4);
  insert into part(compName, manuf, ness, quant)
- values("Память", "AMD", true, 2);
+ values("РџР°РјСЏС‚СЊ", "AMD", true, 2);
  insert into part(compName, manuf, ness, quant)
- values("SSD диск", "Intel", true, 3);
+ values("SSD РґРёСЃРє", "Intel", true, 3);
  insert into part(compName, manuf, ness, quant)
- values("SSD диск", "Micron", true, 2);
+ values("SSD РґРёСЃРє", "Micron", true, 2);
  insert into part(compName, manuf, ness, quant)
- values("SSD диск", "Toshiba", true, 3);
+ values("SSD РґРёСЃРє", "Toshiba", true, 3);
  insert into part(compName, manuf, ness, quant)
- values("Видеокарта", "Nvidea", false, 3);
+ values("Р’РёРґРµРѕРєР°СЂС‚Р°", "Nvidea", false, 3);
  insert into part(compName, manuf, ness, quant)
- values("Видеокарта", "Gigabyte", false, 2);
+ values("Р’РёРґРµРѕРєР°СЂС‚Р°", "Gigabyte", false, 2);
  insert into part(compName, manuf, ness, quant)
- values("Видеокарта", "Zotac", false, 3);
+ values("Р’РёРґРµРѕРєР°СЂС‚Р°", "Zotac", false, 3);
 
